@@ -1,0 +1,65 @@
+.conteudo {
+    position: relative;
+    width: 375px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.barra-superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    box-shadow: 0px 4px 6px 0px #0000000D;
+    position: fixed;
+    top: 0;
+    width: 375px;
+    background-color: white;
+}
+
+.logo {
+    height: 70px;
+    margin-left: 22px
+}
+
+.people {
+    margin-right: 22.41px;
+}
+
+.chat {
+    background-color: #F3F3F3;
+    height: calc(100vh - 40px);
+    height: 100vh;
+    margin-top: 80px;
+}
+
+.enviar-mensagem {
+    position: fixed;
+    bottom: 0;
+    height: 80px;
+    width: 375px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px -4px 6px 0px #0000000D;
+}
+
+input {
+    height: 74px;
+    width: 300px;
+    border: none;
+    outline: none
+}
+
+input::placeholder {
+    font-style: italic;
+    font-size: 15px;
+    color:black;
+    padding-left: 10px;
+}
+
+.enviar-mensagem img {
+    margin-right: 18px;
+    z-index: 1
+}
